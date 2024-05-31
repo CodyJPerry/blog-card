@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'blog-card': 'url(/blog-card.jpg)',
+        // 'blog-card': 'urlblog-card.jpg)',
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
@@ -17,8 +17,8 @@ const config: Config = {
       width: {
         90: '340px',
       },
-      height: {
-        'blog-card': '228px',
+      spacing: {
+        '0.5': '2px',
       },
     },
   },
