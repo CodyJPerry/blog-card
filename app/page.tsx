@@ -6,15 +6,15 @@ export default function Home() {
   return (
     <main className="mt-[120px] flex justify-center" role="main">
       <section className="bg-white w-90 min-h-[504px] rounded-lg border-2 border-neutral-200 shadow-md mx-4">
-        <Image
-          className="rounded-t-lg h-[290px] w-full object-cover"
-          src="/blog-card.jpg"
-          alt="Blog Post"
-          width={340}
-          height={228}
-          strategy="responsive"
-          priority
-        />
+        <div className="w-90 h-[290px] relative">
+          <Image
+            className="rounded-t-lg h-[290px] w-full object-cover"
+            src="/blog-card.jpg"
+            alt="Blog Post"
+            fill
+            priority
+          />
+        </div>
         {/* Content */}
         <div className="px-4 py-6">
           <span className="text-sm text-green-700 bg-green-50 px-2 py-0.5 mb-3 border-2 border-green-200 rounded-full inline-block mt-0">
