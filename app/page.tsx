@@ -18,10 +18,10 @@ export default function Home() {
           <span className="text-sm text-green-700 bg-green-50 px-2 py-0.5 mb-3 border-2 border-green-200 rounded-full inline-block mt-0">
             Interior
           </span>
-          <h2 className="text-lg font-semibold text-neutral-900 mb-4">
+          <h2 className="text-lg font-semibold text-neutral-900 mb-3 line-clamp-2">
             Top 5 Living Room Inspirations
           </h2>
-          <p className="text-base text-neutral-600 mb-6 font-medium">
+          <p className="text-base text-neutral-600 mb-6 font-medium line-clamp-3">
             Curated vibrants colors for your living, make it pop & calm in the
             same time.
           </p>
