@@ -12,6 +12,8 @@ export default function Home() {
           alt="Blog Post"
           width={340}
           height={228}
+          stratety="responsive"
+          priority
         />
         {/* Content */}
         <div className="px-4 py-6">
