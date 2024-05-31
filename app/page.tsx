@@ -12,7 +12,7 @@ export default function Home() {
           alt="Blog Post"
           width={340}
           height={228}
-          stratety="responsive"
+          strategy="responsive"
           priority
         />
         {/* Content */}
