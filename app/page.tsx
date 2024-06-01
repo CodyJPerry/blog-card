@@ -5,7 +5,7 @@ import { RiArrowRightLine } from 'react-icons/ri';
 export default function Home() {
   return (
     <main className="mt-[120px] flex justify-center" role="main">
-      <section className="bg-white w-90 min-h-[504px] rounded-lg border-2 border-neutral-200 shadow-md mx-4">
+      <section className="bg-white w-90 min-h-[504px] rounded-lg border-2 border-neutral-200 shadow mx-4">
         <div className="w-90 h-[290px] relative">
           <Image
             className="rounded-t-lg h-[290px] w-full object-cover"
